@@ -396,6 +396,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9a3cd7eb0a11a104d9c8894d14fa5250, type: 2}
+    - target: {fileID: 330939144036027221, guid: 8c6b61c63255c8145b632d6417e90cd5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -29.3
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8c6b61c63255c8145b632d6417e90cd5, type: 3}
       propertyPath: m_Name
       value: Setdressingv2 2
