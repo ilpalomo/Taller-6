@@ -13471,7 +13471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2129289431100745209, guid: 0e404ee02720d434b81981149105fc49, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3
+      value: 3.34
       objectReference: {fileID: 0}
     - target: {fileID: 2129289431100745209, guid: 0e404ee02720d434b81981149105fc49, type: 3}
       propertyPath: m_LocalPosition.z
@@ -15454,6 +15454,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 543450653290378321}
     m_Modifications:
+    - target: {fileID: 230232265902681995, guid: c99ed785b8784c84fa0251ba02d3d8af, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4319988094716841591, guid: c99ed785b8784c84fa0251ba02d3d8af, type: 3}
       propertyPath: m_Name
       value: Arbol (150)
@@ -21753,6 +21757,7 @@ GameObject:
   - component: {fileID: 4876933053822700941}
   - component: {fileID: 1305037033739071840}
   - component: {fileID: 4931218026403084175}
+  - component: {fileID: 4931218026403084176}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
@@ -22259,10 +22264,24 @@ BoxCollider:
   m_GameObject: {fileID: 2193423312911568576}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 4.5759497, y: 4.6079874, z: 0.10315108}
   m_Center: {x: -0.0000048828124, y: 0.062641144, z: -0.2051452}
+--- !u!64 &4931218026403084176
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2193423312911568576}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -462981019419857548, guid: b30788cc7b2f6634fb4b86a29f4d8055, type: 3}
 --- !u!1 &4964960145301840600
 GameObject:
   m_ObjectHideFlags: 0
