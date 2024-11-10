@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 4914896027319397539}
   - component: {fileID: 5899359470126632590}
   - component: {fileID: 1668253350984914719}
+  - component: {fileID: 1822681305348334194}
   m_Layer: 0
   m_Name: Cube.001
   m_TagString: Untagged
@@ -250,6 +251,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &1822681305348334194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 308715145584375070}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.08296758, y: 0.05, z: 0.29967958}
+  m_Center: {x: -0.9667574, y: -0.9, z: 0.20385487}
 --- !u!1 &345439076181507399
 GameObject:
   m_ObjectHideFlags: 0
@@ -2170,6 +2184,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3151648117243110386}
+  - component: {fileID: 6888197173660739641}
+  - component: {fileID: -798857297111035674}
   m_Layer: 0
   m_Name: Arbol
   m_TagString: Untagged
@@ -2219,6 +2235,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &6888197173660739641
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393388942670140780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &-798857297111035674
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393388942670140780}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &9078630890114317382
 GameObject:
   m_ObjectHideFlags: 0
