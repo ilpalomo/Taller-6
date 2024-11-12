@@ -810,7 +810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 1797134926}
-  nextSceneName: SampleScene
+  nextSceneName: Juego
 --- !u!1001 &7634425122532509642
 PrefabInstance:
   m_ObjectHideFlags: 0

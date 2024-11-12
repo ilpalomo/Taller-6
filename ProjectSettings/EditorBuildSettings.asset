@@ -6,14 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: dc43b0edbc5bfb04d89a16253f75263b
+  - enabled: 1
     path: Assets/Scenes/Cinematica 1.unity
     guid: 3eba608fef429b041862a356c29f7abb
   - enabled: 1
-    path: Assets/Scenes/PrimeraCinematica.unity
-    guid: a4596554de7996244b8c4d2da0d90d2f
-  - enabled: 1
     path: Assets/Scenes/Juego.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Cinematica 2.unity
+    guid: c100f4b62011976449f70fd924ab3cf7
+  - enabled: 0
+    path: Assets/Scenes/PrimeraCinematica.unity
+    guid: a4596554de7996244b8c4d2da0d90d2f
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 035299bffc6ef7d48ae54f2f1072572b, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b0a32977de2712a45984ffa06d8b6b4a, type: 2}

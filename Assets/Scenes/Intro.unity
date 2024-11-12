@@ -215,7 +215,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7142661046235010930, guid: caeb3b95a6319c743b8e13f4827b6ff7, type: 3}
       propertyPath: videoSceneName
-      value: Inicial
+      value: Cinematica 1
       objectReference: {fileID: 0}
     - target: {fileID: 7142661046235010930, guid: caeb3b95a6319c743b8e13f4827b6ff7, type: 3}
       propertyPath: initialVideoClip
